@@ -1,7 +1,7 @@
 { callPackage }:
-(callPackage ../common.nix { }).makeCddaPackage {
+(callPackage ../common.nix { }).makeCddaPackage rec {
   pname = "cataclysm-dda-bin-git";
-  version = "cdda-experimental-2026-06-09-1259";
-  timestamp = "2026-06-09-1259";
-  hash = "sha256-bz9GFnReySDroO9Fjz2vLnkYoI6A+CPVz1dzRxSBda8=";
+  timestamp = "2026-06-17-2219";
+  version = "cdda-experimental-${timestamp}";
+  hash = "sha256-Zb/e2GlgVxx6IlRd80OXLaKMW2eqrDiOtvoNnlCJ96c=";
 }
